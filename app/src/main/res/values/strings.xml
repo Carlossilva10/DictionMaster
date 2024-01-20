@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Diction Master</string>
+    <string name="text_search_blank">Type a word...</string>
+    <string name="nome_dev">Carlos E. Silva</string>
+    <string name="idioma_ingles">ENGLISH</string>
+    <string name="botao_search">SEARCH</string>
+    <string name="botao_subscribe">SUNSCRIBE</string>
 </resources>

@@ -16,34 +16,32 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="26dp"
+            android:layout_height="27dp"
             android:layout_marginStart="149dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="237dp"
             android:layout_marginBottom="707dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ingles" />
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="44dp"
+            app:srcCompat="@drawable/ingles"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="74dp"
+            android:layout_height="21dp"
             android:layout_marginStart="182dp"
             android:layout_marginTop="48dp"
             android:layout_marginEnd="156dp"
             android:layout_marginBottom="709dp"
-            android:text="ENGLISH"
+            android:text="@string/idioma_ingles"
             android:textAlignment="center"
             android:textColor="#052D39"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="48dp"
+            tools:ignore="MissingConstraints" />
 
         <EditText
             android:id="@+id/editText"
@@ -61,18 +59,20 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="306dp"
-            android:layout_height="60dp"
+            android:layout_width="358dp"
+            android:layout_height="64dp"
             android:layout_marginStart="27dp"
             android:layout_marginTop="395dp"
             android:layout_marginEnd="27dp"
             android:layout_marginBottom="319dp"
             android:backgroundTint="#5BD6FD"
             android:text="SEARCH"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText" />
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="395dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
