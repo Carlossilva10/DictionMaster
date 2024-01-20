@@ -5,4 +5,10 @@
     <string name="idioma_ingles">ENGLISH</string>
     <string name="botao_search">SEARCH</string>
     <string name="botao_subscribe">SUNSCRIBE</string>
+    <string name="imagem_mulher">Imagem mulher</string>
+    <string name="imagem_livro">Imagem livro</string>
+    <string name="imagem_titulo">Imagem titulo</string>
+    <string name="imagem_bandeira_ingles">Imagem titulo</string>
+    <string name="texto_procurar">SEARCH</string>
+    <string name="texto_digite_uma_palavra">Type a word...</string>
 </resources>

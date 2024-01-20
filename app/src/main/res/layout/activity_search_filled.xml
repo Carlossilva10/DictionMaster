@@ -10,7 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".SearchBlank">
 
 
@@ -22,6 +22,7 @@
             android:layout_marginTop="44dp"
             android:layout_marginEnd="237dp"
             android:layout_marginBottom="707dp"
+            android:contentDescription="@string/imagem_bandeira_ingles"
             tools:layout_editor_absoluteX="149dp"
             tools:layout_editor_absoluteY="44dp"
             app:srcCompat="@drawable/ingles"
@@ -38,7 +39,7 @@
             android:text="@string/idioma_ingles"
             android:textAlignment="center"
             android:textColor="#052D39"
-            android:textSize="18dp"
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="182dp"
             tools:layout_editor_absoluteY="48dp"
             tools:ignore="MissingConstraints" />
@@ -50,9 +51,11 @@
             android:layout_marginStart="119dp"
             android:layout_marginEnd="119dp"
             android:layout_marginBottom="538dp"
-            android:text="Type a word"
+            android:hint="@string/texto_digite_uma_palavra"
+            android:inputType="text"
             android:textAlignment="center"
             android:textColor="#052D39"
+            android:textSize="32sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -66,13 +69,14 @@
             android:layout_marginEnd="27dp"
             android:layout_marginBottom="319dp"
             android:backgroundTint="#5BD6FD"
-            android:text="SEARCH"
-            android:textSize="18dp"
+            android:text="@string/texto_procurar"
+            android:textSize="18sp"
             android:textAlignment="center"
             android:fontFamily="sans-serif-condensed"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="27dp"
-            tools:layout_editor_absoluteY="395dp"/>
+            tools:layout_editor_absoluteY="395dp"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

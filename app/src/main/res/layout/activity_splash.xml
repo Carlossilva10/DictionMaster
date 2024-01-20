@@ -10,7 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".Splash">
 
         <TextView
@@ -20,7 +20,7 @@
             android:layout_marginStart="150dp"
             android:layout_marginEnd="150dp"
             android:layout_marginBottom="41dp"
-            android:textSize="22dp"
+            android:textSize="22sp"
             android:fontFamily="sans-serif-condensed-light"
             android:textColor="#052D39"
             android:textAlignment="center"
@@ -34,6 +34,7 @@
             android:layout_width="78dp"
             android:layout_height="78dp"
             app:srcCompat="@drawable/icon"
+            android:contentDescription="@string/imagem_livro"
             tools:layout_editor_absoluteX="172dp"
             tools:layout_editor_absoluteY="292dp"
             tools:ignore="MissingConstraints" />
@@ -45,6 +46,7 @@
             android:layout_marginStart="116.78dp"
             android:layout_marginEnd="106.78dp"
             android:layout_marginTop="22dp"
+            android:contentDescription="@string/imagem_titulo"
             tools:layout_editor_absoluteX="116.78dp"
             tools:layout_editor_absoluteY="392dp"
             app:srcCompat="@drawable/title"

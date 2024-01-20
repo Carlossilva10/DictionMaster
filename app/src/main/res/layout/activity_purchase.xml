@@ -10,7 +10,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".Splash">
 
         <ImageView
@@ -21,6 +21,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/imgmulher"
+            android:contentDescription="@string/imagem_mulher"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp" />
 
@@ -33,6 +34,7 @@
             android:layout_marginStart="167dp"
             android:layout_marginEnd="167dp"
             app:srcCompat="@drawable/icon"
+            android:contentDescription="@string/imagem_livro"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="375.71dp" />
@@ -42,6 +44,7 @@
             android:layout_width="188.43dp"
             android:layout_height="32dp"
             app:srcCompat="@drawable/title"
+            android:contentDescription="@string/imagem_titulo"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="111.78dp"
             tools:layout_editor_absoluteY="470dp" />
@@ -80,7 +83,7 @@
             android:fontFamily="sans-serif-condensed"
             android:textStyle="bold"
             android:text="@string/botao_subscribe"
-            android:textSize="18dp"
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="27dp"
             tools:layout_editor_absoluteY="674dp"
             tools:ignore="MissingConstraints" />
